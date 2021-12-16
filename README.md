@@ -1,8 +1,8 @@
 # Modality-Aware Triplet Hard Mining for Zero-Shot Sketch-Based Image Retrieval (and a strong metric learning baseline)
 
 This project is our implementation of Modality-Aware Triplet Hard Mining (MATHM) for zero-shot sketch-based image retrieval.
-More detailed descriptions and experimental results could be found in the [paper](https://arxiv.org/abs/1904.03208#).
-![framework](utils/images/fig2.png)
+More detailed descriptions and experimental results could be found in the [paper](https://arxiv.org/abs/2112.07966#).
+![framework](images/fig2.png)
 
 If you find this project helpful, please consider citing our paper.
 ```
