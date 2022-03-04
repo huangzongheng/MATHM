@@ -14,10 +14,6 @@ If you find this project helpful, please consider citing our paper.
 }
 ```
 
-## install dependencies
-```
-pip install -r requirements.txt 
-```
 
 ## prepare data
 Download the resized TUBerlin Ext and Sketchy Ext dataset from 
@@ -30,7 +26,7 @@ Put the unzipped folder to the same directory of this project.
 Train model with our baseline method:
 ```
 python train.py -a cse_resnet50 -d [tuberlin/sketchy/sketchy2] \
-                --loss basic 
+                --loss cross 
 ```
 Train model with MATHM:
 ```
