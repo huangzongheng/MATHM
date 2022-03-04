@@ -110,7 +110,8 @@ class WeightedCrossMatchingTripletLoss(CrossMatchingTripletLoss):
         weight = loss_grad.mean() / loss_grad.clamp_min(0.1)
 
         loss = loss * weight[:, None]
-        loss = loss.sum()
+        loss = loss.mean(-1).sum()
+        # loss = loss.sum()
 
         return loss, dist_ap, dist_an
 
